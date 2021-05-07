@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Content",
+  "info": {
+    "name": "Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}
